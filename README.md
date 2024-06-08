@@ -16,4 +16,6 @@ https://www.hackingwithswift.com/100/swiftui
 
 | Project Name | Topics learnt | Screenshots |
 | :----------: | :----------: | :----------: |
-| WeSplit | State variables, Form, Section, NavigationStack | <img width="100" alt="Screenshot 2024-06-07 at 1 47 46 PM" src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/24c21fb0-0882-4fce-a591-4d5a7837ffa2">
+| WeSplit | State variables, Form, Section, NavigationStack | ![Screenshot_2024-06-07_at_1 47 46_PM-removebg-preview](https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/1e4f0482-e72d-47d9-91c8-689244d8c06a)
+ | 
+
