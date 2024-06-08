@@ -16,7 +16,7 @@ https://www.hackingwithswift.com/100/swiftui
 
 | Project Name | Topics learnt | Screenshots |
 | :----------: | :----------: | :----------: |
-| WeSplit | State variables, Form, Section, NavigationStack | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/1e4f0482-e72d-47d9-91c8-689244d8c06a" alt="Codenames Screenshot" width="100">
+| Project 1: WeSplit | State variables, Form, Section, NavigationStack, @Binding, TextField, Picker | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/1e4f0482-e72d-47d9-91c8-689244d8c06a" alt="Codenames Screenshot" width="100">
 
- | 
+ | Project 2: Guess the Flag | 
 
