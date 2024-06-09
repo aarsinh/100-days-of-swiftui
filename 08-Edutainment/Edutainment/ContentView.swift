@@ -52,15 +52,10 @@ struct SettingsView: View {
                     }
                 }
                 .scrollContentBackground(.hidden)
-                Button("Start") {
-                    isGameActive.toggle()
+                NavigationLink("Start") {
+                    GameView(tablesUpto: tablesUpto, numberOfQs: numberOfQuestions)
                 }
                 .disabled(numberOfQuestions == 0)
-                .fullScreenCover(isPresented: $isGameActive,
-                                 content: {
-                    GameView(tablesUpto: tablesUpto,
-                    numberOfQs: numberOfQuestions)
-                })
                 .font(.title)
                 .navigationBarTitle("Choose Settings")
                 
@@ -128,11 +123,6 @@ struct GameView: View {
             .navigationTitle("Multiplication")
             .toolbar {
                 VStack {
-                    Button("Settings") {
-                        dismiss()
-                    }
-                    .font(.system(size: 20))
-                    
                     Text("Score: \(score)")
                         .font(.system(size: 20))
                         .padding(.leading, 10)
