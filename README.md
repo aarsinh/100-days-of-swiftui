@@ -26,9 +26,7 @@ https://www.hackingwithswift.com/100/swiftui
 | Project 6: Animations | Animations and transitions | <img src=https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/cdd2fa87-bce4-4152-91f8-0e072e7aa9aa width="100"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/cd7a0ea6-78bd-4476-ac67-76aa176ad420" width="100"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/d0e109c6-ef9a-4030-ac88-b1c4877f70e6" width="100"> |
 | Milestone Project 4-6: Multiplication(Edutainment) | Review of topics learnt in Projects 4-6 | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/a3f4cbae-eb9d-4300-99c1-376dbb6c4c95" width="95"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/727ffa54-0972-4999-b634-ed9011c5d5ba" width="100"> |
 | Project 7: iExpense | Observable, Codable, UserDefaults, onDelete() | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/5b52dbc5-7d70-4c7f-89dc-ceea9d61b1b7" width="100"> |
-| Project 8: Moonshot | ScrollView, Identifiable, Images, NavigationLink, Generics |  ![Screenshot_2024-06-10_at_8 14 38_PM-removebg-preview (1)](https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/957f69ac-d407-4590-9c92-2ff8dae98b7f)
-![Screenshot_2024-06-10_at_8 15 08_PM-removebg-preview (1) (1)](https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/d112e341-6448-42ac-90ed-58887cc2c6f2)
-![Screenshot_2024-06-10_at_8 15 20_PM-removebg-preview (1)](https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/bfe65a03-4be5-48ad-9c4d-c69c3c19e206) |
+| Project 8: Moonshot | ScrollView, Identifiable, Images, NavigationLink, Generics | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/ab2f7779-9421-43c8-bdcd-ffb61034ceb3" width="100"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/4c0a4b16-af92-4ffd-bc15-b327c79f65d3" width="100"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/548fc09c-a00f-456f-8ba2-0d68f6cf82b7" width="100"> |
 
 
 
