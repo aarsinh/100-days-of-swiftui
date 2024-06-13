@@ -67,11 +67,10 @@ struct ContentView: View {
                 }
                 
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("add expense", systemImage: "plus") {
-                        showingAddExpense = true
-                    }
-                    .sheet(isPresented: $showingAddExpense) {
+                    NavigationLink() {
                         AddView(expenses: expenses)
+                    } label: {
+                        Image(systemName: "plus")
                     }
                 }
             }
