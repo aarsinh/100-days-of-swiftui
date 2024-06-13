@@ -7,7 +7,7 @@ https://www.hackingwithswift.com/100/swiftui
 
 | Type    | Number | Completion |
 | :----------: | :---------: | :---------:
-| Projects | 8/19 | 42% |
+| Projects | 9/19 | 47% |
 | Milestone Projects  | 2/6  | 33% |  
 
 --------------------------------------------------
