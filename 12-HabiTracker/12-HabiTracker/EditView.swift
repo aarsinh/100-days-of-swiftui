@@ -10,7 +10,6 @@ import SwiftUI
 struct EditView: View {
     var activity: Activity
     var activities: Activities
-    @State var timesCompleted: Int = 0
     var body: some View {
         NavigationStack {
             Form {
