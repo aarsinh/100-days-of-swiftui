@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct AddView: View {
-    var expenses: Expenses
+    var expenses: [Expense]
     @Environment(\.dismiss) var dismiss
+    @Environment(\.modelContext) var modelContext
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
@@ -31,8 +32,8 @@ struct AddView: View {
             .navigationTitle("Add New Expense")
             .toolbar {
                 Button("Save") {
-                    let item = ExpenseItem(name: name, type: type, amount: amount)
-                    expenses.items.append(item)
+                    let expense = Expense(name: name, type: type, amount: amount)
+                    modelContext.insert(expense)
                     dismiss()
                 }
                 .disabled(name.isEmpty)
@@ -42,5 +43,5 @@ struct AddView: View {
 }
 
 #Preview {
-    AddView(expenses: Expenses()).preferredColorScheme(.dark)
+    AddView(expenses: [Expense]()).preferredColorScheme(.dark)
 }
