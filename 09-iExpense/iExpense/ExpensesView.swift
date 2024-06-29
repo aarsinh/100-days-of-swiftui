@@ -13,6 +13,9 @@ struct ExpensesView: View {
     @Environment(\.modelContext) var modelContext
     @State private var filter = ""
     var body: some View {
+        if expenses.isEmpty {
+            ContentUnavailableView("No expenses", systemImage: "creditcard.trianglebadge.exclamationmark")
+        }
         List {
             ForEach(expenses) { item in
                 HStack {

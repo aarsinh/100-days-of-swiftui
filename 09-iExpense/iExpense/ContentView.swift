@@ -21,7 +21,7 @@ struct ContentView: View {
             ExpensesView(sortOrder: sortOrder, filterBy: filterBy)
                 .searchable(text: $filterBy, 
                             placement: .navigationBarDrawer(displayMode: .always),
-                            prompt: Text("Filter by type of expense"))
+                            prompt: Text("Filter by name or type of expense"))
                 .navigationTitle("iExpense")
                 .toolbar {
                     Menu("Sort", systemImage: "arrow.up.arrow.down") {
