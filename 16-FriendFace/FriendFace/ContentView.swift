@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 extension URLSession {
     func decode<T: Codable>(
@@ -28,7 +29,8 @@ extension URLSession {
 }
 
 struct ContentView: View {
-    @State private var users = [User]()
+    @Query var users: [User]
+    @Environment(\.modelContext) var modelContext
     
     var body: some View {
         NavigationStack {
@@ -54,32 +56,33 @@ struct ContentView: View {
                                 .font(.system(size: 13))
                         }
                     }
-                }
-            }
-            .navigationTitle("FriendFace")
-            .task {
-                if let decodedUsers = await getUsers() {
-                    users = decodedUsers
+                    .navigationTitle("FriendFace")
+                    .task {
+                        if users.isEmpty {
+                            await loadUsers()
+                            print(users.count)
+                        }
+                    }
                 }
             }
         }
     }
     
-    func getUsers() async -> [User]? {
-        let url = URL(string: "https://www.hackingwithswift.com/samples/friendface.json")!
+    func loadUsers() async {
+        guard let url = URL(string: "https://www.hackingwithswift.com/samples/friendface.json") else {
+            print("Could not find URL")
+            return
+        }
         
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-
         do {
-            let decodedData = try await URLSession.shared.decode([User].self, from: url)
-            return decodedData
+            if let decodedUsers = try await URLSession.shared.decode([User]?.self, from: url) {
+                for user in decodedUsers {
+                    modelContext.insert(user)
+                }
+            }
         } catch {
             print(error)
         }
-        
-        return nil
     }
 }
 
@@ -87,3 +90,5 @@ struct ContentView: View {
     ContentView()
         .preferredColorScheme(.dark)
 }
+
+

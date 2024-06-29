@@ -17,6 +17,7 @@
 		5C992F9E2C2C1C6300D7C758 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C992F9D2C2C1C6300D7C758 /* User.swift */; };
 		5C992FA02C2C1CE800D7C758 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C992F9F2C2C1CE800D7C758 /* Friend.swift */; };
 		5C9C6EFB2C2C52CD008C4F26 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C6EFA2C2C52CD008C4F26 /* DetailView.swift */; };
+		5CEB23EB2C2D8EF4005E827D /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CEB23EA2C2D8EF4005E827D /* users.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5C992F9D2C2C1C6300D7C758 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5C992F9F2C2C1CE800D7C758 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		5C9C6EFA2C2C52CD008C4F26 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5CEB23EA2C2D8EF4005E827D /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				5C9C6EFA2C2C52CD008C4F26 /* DetailView.swift */,
 				5C992F9D2C2C1C6300D7C758 /* User.swift */,
 				5C992F9F2C2C1CE800D7C758 /* Friend.swift */,
+				5CEB23EA2C2D8EF4005E827D /* users.json */,
 				5C992F772C2C1BE800D7C758 /* Assets.xcassets */,
 				5C992F792C2C1BE800D7C758 /* Preview Content */,
 			);
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEB23EB2C2D8EF4005E827D /* users.json in Resources */,
 				5C992F7B2C2C1BE800D7C758 /* Preview Assets.xcassets in Resources */,
 				5C992F782C2C1BE800D7C758 /* Assets.xcassets in Resources */,
 			);
@@ -434,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
+				DEVELOPMENT_TEAM = H9N7JPN6RT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
+				DEVELOPMENT_TEAM = H9N7JPN6RT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
