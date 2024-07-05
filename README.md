@@ -3,7 +3,7 @@ Projects for 100 Days of SwiftUI by Paul Hudson
 https://www.hackingwithswift.com/100/swiftui  
 
 --------------------------------------------------
-## Progess 
+## Progress 
 
 | Type    | Number | Completion |
 | :----------: | :---------: | :---------:
