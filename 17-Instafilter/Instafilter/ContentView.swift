@@ -90,14 +90,11 @@ struct ContentView: View {
             }
             
             .toolbar {
-                if let processedImage {
+                if processedImage != nil {
                     ToolbarItem(placement: .topBarLeading) {
                         Button("rotate image", systemImage: "rotate.right") {
                             withAnimation {
                                 rotation += 90
-                            }
-                            if rotation >= 360 {
-                                rotation = 0.0
                             }
                         }
                     }
