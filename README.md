@@ -3,11 +3,11 @@ Projects for 100 Days of SwiftUI by Paul Hudson
 https://www.hackingwithswift.com/100/swiftui  
 
 --------------------------------------------------
-## Progess 
+## Progress 
 
 | Type    | Number | Completion |
 | :----------: | :---------: | :---------:
-| Projects | 12/19 | 63% |
+| Projects | 13/19 | 68% |
 | Milestone Projects  | 3/6  | 50% |  
 
 --------------------------------------------------
