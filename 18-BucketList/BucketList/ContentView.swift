@@ -21,7 +21,7 @@ struct ContentView: View {
                     Map(initialPosition: startLocation) {
                         ForEach(viewModel.locations) { location in
                             Annotation(location.name, coordinate: location.coordinate) {
-                                Image(systemName: "mappin")
+                                Image(systemName: "mappin ")
                                     .resizable()
                                     .foregroundStyle(.red)
                                     .frame(width: 10, height: 28)
