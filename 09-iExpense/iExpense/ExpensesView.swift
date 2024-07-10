@@ -11,7 +11,7 @@ import SwiftData
 struct ExpensesView: View {
     @Query var expenses: [Expense]
     @Environment(\.modelContext) var modelContext
-    @State private var filter = ""
+
     var body: some View {
         if expenses.isEmpty {
             ContentUnavailableView("No expenses", systemImage: "creditcard.trianglebadge.exclamationmark")
