@@ -30,6 +30,15 @@ https://www.hackingwithswift.com/100/swiftui
 | Project 9: Navigation | NavigationLink, navigationDestination(), NavigationStack, NavigationPath | |
 | Milestone Project 7-9: HabiTracker | Review of topics learnt in projects 7-9 | |
 | Project 10: CupcakeCorner | | |
+| Project 11: Bookworm | | |
+| Project 12: SwiftData | Advanced SwiftData | |
+| Milestone Project 10-12: FriendFace | Review of topics learnt in projects 10-12 | |
+| Project 13: Instafilter | | |
+| Project 14: BucketList | MapKit, MVVM, Authentication | |
+| Project 15: Accessibility | Accessibility topics | |
+| Milestone Project 13-15: Event Contacts  | Review of topics learnt in projects 13-15 | |
+| Project 16: Hot Prospects | TabView, Result, ContextMenu, Notifications, package dependencies | |
+| Project 17: Flashzilla | Gestures, scenePhase, Timer, user interactivity with allowHitTesting() | |
 
 
 
