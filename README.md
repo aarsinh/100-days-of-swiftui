@@ -7,7 +7,7 @@ https://www.hackingwithswift.com/100/swiftui
 
 | Type    | Number | Completion |
 | :----------: | :---------: | :---------:
-| Projects | 16/19 | 84% |
+| Projects | 17/19 | 89% |
 | Milestone Projects  | 5/6  | 83% |  
 
 --------------------------------------------------
@@ -27,6 +27,18 @@ https://www.hackingwithswift.com/100/swiftui
 | Milestone Project 4-6: Multiplication(Edutainment) | Review of topics learnt in Projects 4-6 | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/a3f4cbae-eb9d-4300-99c1-376dbb6c4c95" width="95"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/727ffa54-0972-4999-b634-ed9011c5d5ba" width="100"> |
 | Project 7: iExpense | Observable, Codable, UserDefaults, onDelete() | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/5b52dbc5-7d70-4c7f-89dc-ceea9d61b1b7" width="100"> |
 | Project 8: Moonshot | ScrollView, Identifiable, Images, NavigationLink, Generics | <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/ab2f7779-9421-43c8-bdcd-ffb61034ceb3" width="100"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/4c0a4b16-af92-4ffd-bc15-b327c79f65d3" width="100"> <img src="https://github.com/aarsinh/100-days-of-swiftui/assets/148481261/548fc09c-a00f-456f-8ba2-0d68f6cf82b7" width="100"> |
+| Project 9: Navigation | NavigationLink, navigationDestination(), NavigationStack, NavigationPath | |
+| Milestone Project 7-9: HabiTracker | Review of topics learnt in projects 7-9 | |
+| Project 10: CupcakeCorner | | |
+| Project 11: Bookworm | | |
+| Project 12: SwiftData | Advanced SwiftData | |
+| Milestone Project 10-12: FriendFace | Review of topics learnt in projects 10-12 | |
+| Project 13: Instafilter | | |
+| Project 14: BucketList | MapKit, MVVM, Authentication | |
+| Project 15: Accessibility | Accessibility topics | |
+| Milestone Project 13-15: Event Contacts  | Review of topics learnt in projects 13-15 | |
+| Project 16: Hot Prospects | TabView, Result, ContextMenu, Notifications, package dependencies | |
+| Project 17: Flashzilla | Gestures, scenePhase, Timer, user interactivity with allowHitTesting() | |
 
 
 
