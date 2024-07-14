@@ -39,6 +39,7 @@ https://www.hackingwithswift.com/100/swiftui
 | Milestone Project 13-15: Event Contacts  | Review of topics learnt in projects 13-15 | |
 | Project 16: Hot Prospects | TabView, Result, ContextMenu, Notifications, package dependencies | |
 | Project 17: Flashzilla | Gestures, scenePhase, Timer, user interactivity with allowHitTesting() | |
+| Project 18: Layout and Geometry | Understanding of layout and GeometryReader and related topics | |
 
 
 
