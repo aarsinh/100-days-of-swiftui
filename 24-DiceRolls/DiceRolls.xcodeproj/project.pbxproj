@@ -103,10 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				5CBD60872C44488D00DE605E /* DiceRollsApp.swift */,
-				5CBD60B72C44536B00DE605E /* HistoryView.swift */,
-				5CBD60892C44488D00DE605E /* ContentView.swift */,
 				5CDFD9EC2C44659A00240D6B /* DataManager.swift */,
 				5CBD60B32C44516B00DE605E /* Roll.swift */,
+				5CBD60892C44488D00DE605E /* ContentView.swift */,
+				5CBD60B72C44536B00DE605E /* HistoryView.swift */,
 				5CBD60B12C444DB100DE605E /* PickerView.swift */,
 				5CBD608B2C44488E00DE605E /* Assets.xcassets */,
 				5CBD608D2C44488E00DE605E /* Preview Content */,
