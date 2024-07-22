@@ -40,7 +40,8 @@ https://www.hackingwithswift.com/100/swiftui
 | Project 16: Hot Prospects | TabView, Result, ContextMenu, Notifications, package dependencies | |
 | Project 17: Flashzilla | Gestures, scenePhase, Timer, user interactivity with allowHitTesting() | |
 | Project 18: Layout and Geometry | Understanding of layout and GeometryReader and related topics | |
-
+| Milestone Project 16-18: Dice Rolls | Recap of topics learn in projects 16-18 | | 
+| Project 19: Snow Seeker | | |
 
 
 
